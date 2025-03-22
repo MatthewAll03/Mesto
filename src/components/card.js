@@ -15,6 +15,7 @@ export function createCard(name, link, deleteItem, likeCard, openImagePopup) {
   cardImg.src = link;
   console.log(11111111);
   console.log("develo123p");
+  console.log("main123");
 
   cardImg.alt = cardName;
 
