@@ -1,7 +1,9 @@
 const cardTemplate = document.querySelector("#card-template").content;
 
 export function createCard(name, link, deleteItem, likeCard, openImagePopup) {
+  console.log(123);
   const cardElement = cardTemplate
+
     .querySelector(".places__item")
     .cloneNode(true);
 
@@ -11,6 +13,8 @@ export function createCard(name, link, deleteItem, likeCard, openImagePopup) {
 
   cardElement.querySelector(".card__title").textContent = cardName;
   cardImg.src = link;
+  console.log(1111);
+
   cardImg.alt = cardName;
 
   cardElement
