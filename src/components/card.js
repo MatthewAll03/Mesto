@@ -13,7 +13,8 @@ export function createCard(name, link, deleteItem, likeCard, openImagePopup) {
 
   cardElement.querySelector(".card__title").textContent = cardName;
   cardImg.src = link;
-  console.log(1111);
+  console.log(11111111);
+  console.log("develo123p");
 
   cardImg.alt = cardName;
 
